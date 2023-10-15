@@ -1,0 +1,9 @@
+                                                Serialization
+
+ Saving the state of object to the file is called serializtion
+
+ Reading the state of object from the file is called De-Serialization
+
+ Process of converting object into byte stream
+
+ This byte stream is saved as a file or sent over a network

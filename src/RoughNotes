@@ -1,0 +1,52 @@
+
+                Convert java object to json object
+
+restfull webservice application :-o that is bulid using java
+                                  o xml and json are common to all the programming language
+                                  o interopearable ,which means langugae and platform independent
+                                  o it sends and accepts the  json and xml format
+                                  o it gives response to mobile application or web application
+                                  o this type conversion knowladge is required when developing the web services
+
+
+moblieappication/webapp :-        o xml and json is understand only by this not by the end user
+
+
+
+JSON (JAVA SCRIPT OBJECT NOTATION)
+
+   o it is simple string format
+   o it maintaines key and value format
+   o json format is interoperable similar to xml
+   o it is also understand by mongodb
+
+XML
+   o in xml format it maintains data in tags
+
+                                    EMPLOYEE DETAILS:-
+
+XML:-                                       |           JSON:-
+<employee>                                  |                    {
+<empNo>101</empNo>                          |                       "empNo":"101",
+<name>sabari</name>                         |                        "name":"sabari"
+<salary>20000</salary>                      |                        "sallary":20000,
+</employee>                                 |                    }
+
+These two are used to convert the java object to json
+            jackson api
+            gson api  :- googleson api
+
+
+JACKSON API
+
+1.X version
+2.X version
+
+ObjectMapper is a class in jackson api that helps to convert.
+
+writeValueAsString(-) = used to convert java object to json
+
+readValue(-) = used to convert jason to java object
+
+
+Helper class/utility class - To write one time and reusing many time we use helper class
